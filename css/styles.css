@@ -17,7 +17,9 @@ html {
 
 body {
 	perspective: 1px;
+	-webkit-perspective: 1px;
 	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -91,11 +93,13 @@ section {
 }
 section:before, section:after, footer:before {
   content: " ";
-  width: 150%;
-  height: 20rem;
+  width: 103%;
+  height: 15rem;
   position: absolute;
   transform: rotate(-11deg);
   transform-origin: 0 0;
+  -webkit-transform: rotate(-11deg);
+  -webkit-transform-origin: 0 0;
   background-color: inherit;
   z-index: -1;
 }
@@ -103,10 +107,12 @@ section:after {
   right: 0;
   bottom: 0;
   transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
 }
 
 .section-image {
   transform: translateZ(-.1px) scale(1.1);
+  -webkit-transform: translateZ(-.1px) scale(1.1);
   position: relative;
   z-index: -10;
   height: 60vw;
