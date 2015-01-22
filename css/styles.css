@@ -40,6 +40,22 @@ section header {
   margin: 0 auto;
 }
 
+.wrap blockquote {
+  max-width: 720px;
+  border: solid #0567A1;
+  border-width: 0.44rem 0;
+  padding: 1.67rem 0;
+  margin: 3rem 1.5rem 3rem 0;
+  color: #3DAECD;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+@media (min-width: 1200px) {
+  .wrap blockquote {
+    position: relative;
+    left: -3rem;
+  }
+}
 
 .inverted {
   color: white;
