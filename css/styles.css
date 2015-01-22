@@ -24,7 +24,7 @@ body {
 }
 
 .banner {
-  margin-top: -40vw;
+  margin-top: -20vw;
 }
 
 h1, h2 {
@@ -106,18 +106,21 @@ section:after {
 }
 
 .section-image {
-  transform: translateZ(-.25px) scale(1.25);
+  transform: translateZ(-.1px) scale(1.1);
   position: relative;
   z-index: -10;
+  height: 60vw;
 }
 .section-image img {
   width: 100%;
+  position: absolute;
+  top: -40px;
 }
 
 
 footer {
   background-color: #0567A1;
-  min-height: 40vw;
+  min-height: 25rem;
   position: relative;
   z-index: 10;
 }
