@@ -7,3 +7,6 @@
 
 # validator
 w3c-validator.py
+
+# other
+.DS_Store
