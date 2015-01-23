@@ -82,6 +82,29 @@ section header {
   }
 }
 
+dl {
+  margin-top: 3rem;
+}
+dt {
+  clear: both;
+  float: left;
+  display: block;
+  width: 18rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0567A1;
+}
+dd {
+  display: block;
+  width: 25rem;
+  float: left;
+  margin-bottom: 3rem;
+}
+dd:last-child {
+  margin-bottom: 0;
+}
+
 .inverted {
   color: white;
   background-color: #0567A1;
