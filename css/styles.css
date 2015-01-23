@@ -185,8 +185,8 @@ section:after {
 }
 @media (min-width: 980px) {
   .section-image {
-    transform: translateZ(-.15px) scale(1.15);
-    -webkit-transform: translateZ(-.15px) scale(1.15);
+    transform: translateZ(-.15px) scale(1.16);
+    -webkit-transform: translateZ(-.15px) scale(1.16);
   }
 }
 .section-image img {
