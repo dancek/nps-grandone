@@ -177,11 +177,17 @@ section:after {
 }
 
 .section-image {
-  transform: translateZ(-.15px) scale(1.15);
-  -webkit-transform: translateZ(-.15px) scale(1.15);
+  transform: translateZ(-.1px) scale(1.1);
+  -webkit-transform: translateZ(-.1px) scale(1.1);
   position: relative;
   z-index: -10;
-  height: 70vw;
+  height: 55vw;
+}
+@media (min-width: 980px) {
+  .section-image {
+    transform: translateZ(-.15px) scale(1.15);
+    -webkit-transform: translateZ(-.15px) scale(1.15);
+  }
 }
 .section-image img {
   width: 100%;
