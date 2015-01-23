@@ -26,7 +26,7 @@ body {
 }
 
 .banner {
-  margin-top: -20vw;
+  margin-bottom: -12vw;
 }
 
 h1, h2 {
@@ -153,8 +153,8 @@ section {
 }
 section:before, section:after, footer:before {
   content: " ";
-  width: 103%;
-  height: 15rem;
+  width: 105%;
+  height: 25rem;
   position: absolute;
   transform: rotate(-11deg);
   transform-origin: 0 0;
@@ -171,8 +171,8 @@ section:after {
 }
 
 .section-image {
-  transform: translateZ(-.1px) scale(1.1);
-  -webkit-transform: translateZ(-.1px) scale(1.1);
+  transform: translateZ(-.15px) scale(1.15);
+  -webkit-transform: translateZ(-.15px) scale(1.15);
   position: relative;
   z-index: -10;
   height: 60vw;
@@ -200,6 +200,7 @@ footer {
 .people {
   float: left;
   margin: 3rem;
+  width: 15rem;
 }
 .people h4 {
   font-size: 1.5rem;
