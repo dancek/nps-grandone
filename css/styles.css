@@ -46,6 +46,13 @@ p {
   margin: 1.5rem 0;
 }
 
+strong {
+  color: #0567A1;
+  font-weight: bold;
+}
+.inverted strong {
+  color: inherit;
+}
 
 section header {
   clear: both;
