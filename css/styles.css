@@ -210,6 +210,10 @@ footer {
 .people h4 {
   font-size: 1.5rem;
 }
+.people h4 a, .people h4 a:visited {
+  color: white;
+  text-decoration: none;
+}
 .people ul {
   list-style-type: none;
   padding: 0;
