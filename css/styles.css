@@ -26,7 +26,7 @@ body {
 }
 
 .banner {
-  margin-bottom: -12vw;
+  margin-bottom: -25vw;
 }
 
 h1, h2 {
@@ -175,7 +175,7 @@ section:after {
   -webkit-transform: translateZ(-.15px) scale(1.15);
   position: relative;
   z-index: -10;
-  height: 60vw;
+  height: 70vw;
 }
 .section-image img {
   width: 100%;
