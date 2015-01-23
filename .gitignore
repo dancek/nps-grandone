@@ -1,5 +1,9 @@
 # layout
 *.ai
+/*.png
 
 # vim
 .*.swp
+
+# validator
+w3c-validator.py
