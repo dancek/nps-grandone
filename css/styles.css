@@ -56,7 +56,10 @@ strong {
 
 section header {
   clear: both;
-  padding: 1rem 0 3rem 0;
+  padding: 3rem 0;
+}
+section header:first-child {
+  padding-top: 1rem;
 }
 
 .wrap {
