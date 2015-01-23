@@ -187,6 +187,13 @@ section:after {
   position: absolute;
   top: -40px;
 }
+.section-image:after {
+  /* Firefox doesn't get the image height correctly so background displays through. This helps. */
+  content: " ";
+  display: block;
+  height: 2000px;
+  width: 100%;
+}
 
 
 footer {
